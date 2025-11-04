@@ -1,2 +1,2 @@
-# piscine-checkpoint-revision
+# revision
 piscine checkpoint exercises and its solutions revision
