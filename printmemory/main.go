@@ -30,7 +30,7 @@ func PrintMemory(a [10]byte) {
 			str += "."
 		}
 	}
-	fmt.Println(str + strings.Repeat(".", 10-len(a)))
+	fmt.Println(str + strings.Repeat("-", 10-len(a)))
 }
 func main(){
 	data := [10]byte{72, 101, 108, 108, 111, 40,33,60,70,120}
