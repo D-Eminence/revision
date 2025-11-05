@@ -6,10 +6,10 @@ import (
 
 func retainFirsthalf(man string) string {
 	char := len(man)
-	data := (char + 1)
+	data := (char + 1) / 2
 	return man[:data]
 }
 
 func main() {
-	fmt.Println(retainFirsthalf(learn2earn))
+	fmt.Println(retainFirsthalf("learn2earn"))
 }
